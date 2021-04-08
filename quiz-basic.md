@@ -11,30 +11,30 @@
 
 | 名词           | 是什么               |
 | :------------- | :------------------- |
-| Node.js        | 是 JS 的一个 runtime |
-| npm            | 是 ……                |
-| npx            | 是 ……                |
-| nvm            | 是 ……                |
-| nrm            | 是 ……                |
-| yarn           | 是 ……                |
-| React          | 是 ……                |
-| Vue            | 是 ……                |
-| Flux           | 是 ……                |
-| Mobx           | 是 ……                |
-| MVVM           | 是 ……                |
-| TDD            | 是 ……                |
-| Jest/Mocha     | 是 ……                |
-| node_modules   | 是 ……                |
-| package.json   | 是 ……                |
-| ECMAScript     | 是 ……                |
-| Electron       | 是 ……                |
-| Babel          | 是 ……                |
-| Webpack        | 是 ……                |
-| SSR            | 是 ……                |
+| Node.js        | 是 JS 的一个 runtime     |
+| npm            | 是下载工具， 也是一个下载命令 |
+| npx            | 是webpack的命令          |
+| nvm            | 是Node.js版本管理器      | 
+| nrm            | 是 管理npm的工具         |
+| yarn           | 是 下载包的工具          |
+| React          | 是一个js框架             |
+| Vue            | 是一个js框架             |
+| Flux           | 是react的状态管理方案    |
+| Mobx           | 是react的数据管理工具    |
+| MVVM           | 是关于逻辑和视图的设计思想|
+| TDD            | 是一个测试驱动           |
+| Jest/Mocha     | 是 ……                   |
+| node_modules   | 是存放安装包的文件夹      |
+| package.json   | 是项目的配置和信息文件    |
+| ECMAScript     | 是js语言的一些扩展       |
+| Electron       | 是构建桌面应用程序的库    |
+| Babel          | 是一款转化js语言的工具    |
+| Webpack        | 是一个模块打包工具        |
+| SSR            | 是 ……                    |
 | BFF            | 是 ……                |
 | Serverless     | 是 ……                |
 | PWA            | 是 ……                |
-| V8             | 是 ……                |
+| V8             | 是js v8引擎              |
 | libuv          | 是 ……                |
 | Stack Overflow | 是 ……                |
 | Deno           | 是 ……                |
@@ -44,9 +44,9 @@
 你平时从哪里了解前端的技术生态？
 只需列出 3~10 条即可
 
-例如：
-
-> - Youtube 的几个频道: Fireship、Traversy Media、DesignCourse …
-> - 掘金、知乎
-
 答：
+> - 简书：前端潇潇
+> - 哔哩哔哩： 技术胖
+> - 微信公共号： 前端大全
+> - 知乎
+

@@ -3,10 +3,35 @@
 
 // * ---------------- 请补充……
 
-const getData = async () =>
-  await fetch('https://jsonplaceholder.typicode.com/todos/').then((response) => response.json());
+interface Response {
+  status: number, // 返回的状态码
+  message: string,  //提示的信息
+  data： any     //返回的数据
 
-getData().then((e) => console.log(e));
+};
+interface requestObj {
+  method: string,
+  headers: object,
+  body: string,
+  mode: string//请求的模式
+  cache: string  //只读属性
+};
+
+let requestConfig: requestObj = {
+  method: 'GET',
+  headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({'page': 1, 'size': 10}),
+  mode: "cors",//请求的模式
+  cache: "force-cache"  //只读属性
+}
+
+const getData = async () =>
+  await fetch('https://jsonplaceholder.typicode.com/todos/', requestConfig).then((response) => response.json());
+
+getData().then((item:Response) => console.log(item));
 
 // * ---------------- TS 的示例
 

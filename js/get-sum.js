@@ -6,7 +6,22 @@
  * @returns {number} 返回和
  */
 const getSumOfTriple = (arr, start, end) => {
-  // 请实现……
+        return arr.reduce(function (total, currentValue, currentIndex, arr) {
+       
+            if(typeof start === 'number' && currentValue < start){
+              currentValue = 0
+            }
+            if(typeof end === 'number' && currentValue > end){
+              currentValue = 0
+            }
+
+            if(currentValue%3 !== 0){
+              currentValue = 0
+            }
+            return total + currentValue;
+        }, 0);
+  
+
 };
 
 // * ---------------- 实现的效果：

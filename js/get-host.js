@@ -4,7 +4,12 @@
  * @returns {string} 返回 url 中的 host
  */
 const getHostName = (url) => {
-  // 请实现……
+    url = url.match(/https?:\/\/([^/]+)\//i);
+    let host = '';
+    if (url && url[1]) {
+      host = url[1];
+    }
+    return host;
 };
 
 // * ---------------- 实现的效果：
